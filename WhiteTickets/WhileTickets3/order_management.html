@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
+
+    <title>WhiteTickets - Управление заказом</title>
+    <link rel="icon" href="./image/fon/logo.png">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/order_management.css">
+    <link rel="stylesheet" href="css/order.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/search.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta name="theme-color" content="#000000">
+</head>
+
+<body>
+    <header id="start">
+        <div class="container">
+            <div class="indent">
+                <div class="menu__icon">
+                    <span></span>
+                </div>
+                <div class="logo">
+                    <span>
+                        <img src="image/symbols/indexLogo.png" alt="indexLogo">
+                    </span>
+                </div>
+
+                <nav class="menu">
+                    <ul id="nav_menu" class="menu__list">
+                        <li><a href="./index.html#action" class="menu__list-nav">Акции</a></li>
+                        <li><a href="./index.html#point" class="menu__list-nav">Баллы</a></li>
+                        <li><a href="./index.html"><img src="image/symbols/indexLogo.png" alt="indexLogo"></a></li>
+                        <li><a href="./login.html" class="nav_btn menu__list-nav">Кабинет</a></li>
+                        <li><a href="./index.html" class="menu__list-nav">Поиск</a></li>
+                        <script src="/scripts/search.js "></script>
+                    </ul>
+                </nav>
+
+                <nav class="menu2">
+                    <ul class="menu__list2">
+                        <li><a href="./index.html#action" class="menu__list-nav2">Акции</a></li>
+                        <li><a href="./index.html#point" class="menu__list-nav2">Баллы</a></li>
+                        <li><a href="./index.html"><img src="image/symbols/indexLogo.png" alt="indexLogo"></a></li>
+                        <li><a href="./login.html" class="nav_btn menu__list-nav2">Кабинет</a></li>
+                        <li><a href="./index.html" class="nav_btn end_nav_btn menu__list-nav2">Поиск</a></li>
+                        <script src="./scripts/search.js"></script>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="stocks" class="ASDDD">
+        <div class="three_by_two first">
+            <img src="" id="ConcertImage" alt="" class="concert__img">
+            <div class="stocks_text">
+                <p class="stock_lable stock_lable search__text" id="ConcertName"></p>
+                <p class="search__text-add" id="ConcertCode"></p>
+                <p class="search__text-add" id="ConcertPrice"></p>
+                <p class="search__text-add" id="ConcertNumber"></p>
+                <p class="search__text-add" id="ConcertPlace"></p>
+                <p class="search__text-add" id="ConcertDate"></p>
+                <p class="search__text-add" id="ConcertTime"></p>
+                <p class="search__text-add" id="ConcertDuration"></p>
+            </div>
+        </div>
+    </section>
+
+    <h3 class="form__title ASDDD">Гости</h3>
+    <section id="GuestsForm">
+        <div class="form__wrapper">
+        </div>
+    </section>
+
+    <button class="personal__account-btn personal__account-btn personal__account-btn buttonConcert">
+        <a href="./profile.html">Оформить</a>
+    </button>
+
+
+    <footer>
+        <hr>
+
+        <div class="footer__logo">WhiteTickets</div>
+        <ul class="footer__list">
+            <li><a href="index.html#action" class="menu__list-nav">Акции</a></li>
+            <li><a href="index.html#point" class="menu__list-nav">Баллы</a></li>
+            <li><a href="./login.html" class="menu__list-nav">Кабинет</a></li>
+            <li><a href="./index.html" class="menu__list-nav">Поиск</a></li>
+        </ul>
+
+        <div class="footer__network">
+            <a href="#"><img src="./image/symbols/Tel1.png" alt="Tel" class="footer__symbol-tel"></a>
+            <a href="#"><img src="./image/symbols/YouTube1.png" alt="YouTube" class="footer__symbol-YouTube"></a>
+            <a href="#"><img src="./image/symbols/Vk1.png" alt="Vk" class="footer__symbol-Vk"></a>
+        </div>
+
+        <div class="footer__telephone">8 (800) 289-20-10</div>
+
+        <div class="footer__text-block">
+            <a class="footer__text" href="http://xxxxxx-m1.wsr.ru/return">Возврат</a>
+            <a class="footer__text" href="http://xxxxxx-m1.wsr.ru/feedback">Обратная связь</a>
+        </div>
+    </footer>
+
+    <script src="./scripts/GetParam.js"></script>
+    <script src="./scripts/GetOrder.js"></script>
+</body>
+</html>

@@ -1,0 +1,197 @@
+.popup {
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.8s ease 0s;
+}
+
+.popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup__area1,
+.popup__area2,
+.popup__area3 {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.popup__body {
+    margin-top: -100px;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+
+.popup__content {
+    background-color: #fff;
+    color: #000;
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+}
+
+.popup__img {
+    margin-top: -150px;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.popup__text {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.button__popup-text {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Abyssinica SIL', serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.popup__title-EK {
+    font-size: 50px;
+    font-weight: 800;
+    background: linear-gradient(45deg, #EC9F05 33%, #FF4E00 66%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.popup__close-EK {
+    font-size: 50px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    text-decoration: none;
+    background: linear-gradient(45deg, #EC9F05 33%, #FF4E00 66%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button__popup-EK {
+    height: 45px;
+    width: 250px;
+    background: linear-gradient(45deg, #FC575E, #F7B42C);
+    border-radius: 30px;
+    margin: 25px auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.popup__title-LZ {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Alegreya SC', serif;
+    background: linear-gradient(45deg, #0f0c29 33%, #302b63 66%, #24243e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.popup__close-LZ {
+    font-size: 50px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    text-decoration: none;
+    background: linear-gradient(45deg, #0f0c29 33%, #302b63 66%, #24243e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button__popup-LZ {
+    height: 45px;
+    width: 250px;
+    background: linear-gradient(45deg, #0f0c29 33%, #302b63 66%, #24243e);
+    border-radius: 30px;
+    margin: 25px auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.popup__title-ST {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Alegreya SC', serif;
+    background: linear-gradient(45deg, #1a2a6c 33%, #b21f1f 66%, #fdbb2d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.popup__close-ST {
+    font-size: 50px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    text-decoration: none;
+    font-family: 'Alegreya SC', serif;
+    background: linear-gradient(45deg, #1a2a6c 33%, #b21f1f 66%, #fdbb2d);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button__popup-ST {
+    height: 45px;
+    width: 250px;
+    background: linear-gradient(45deg, #1a2a6c 33%, #b21f1f 66%, #fdbb2d);
+    border-radius: 30px;
+    margin: 25px auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .popup__content,
+    .popup__title-EK,
+    .popup__title-LZ,
+    .popup__title-ST,
+    .popup__img {max-width: 400px;}
+}
+
+@media (max-width: 500px) {
+    .popup__content,
+    .popup__title-EK,
+    .popup__title-LZ,
+    .popup__title-ST,
+    .popup__img {max-width: 300px;}
+}
+
+@media (max-width: 420px) {
+    .popup__content,
+    .popup__title-EK,
+    .popup__title-LZ,
+    .popup__title-ST,
+    .popup__img,
+    .button__popup-EK,
+    .button__popup-ST,
+    .button__popup-LZ {max-width: 220px;}
+}

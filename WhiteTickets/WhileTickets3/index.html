@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
+
+    <title>WhiteTickets</title>
+    <link rel="icon" href="./image/fon/logo.png">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta name="theme-color" content="#000000">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/popup.css">
+</head>
+
+<body>
+
+    <header class="container" id="start">
+        <div class="indent">
+            <div class="menu__icon2">
+                <span></span>
+            </div>
+            <div class="logo">
+                <span>
+                    <img src="image/symbols/indexLogo.png" alt="indexLogo">
+                </span>
+            </div>
+            <nav id="nav_menu" class="menu2">
+                <ul class="menu__list2">
+                    <li><a href="#action" class="nav_btn menu__list-nav2">Акции</a></li>
+                    <li><a href="#point" class="nav_btn start_nav_btn menu__list-nav2">Баллы</a></li>
+                    <li><a href="./index.html"><img src="image/symbols/indexLogo.png" alt="indexLogo"></a></li>
+                    <li><a href="./login.html" class="nav_btn menu__list-nav2">Кабинет</a></li>
+                    <li><a href="#" class="nav_btn end_nav_btn menu__list-nav2" id="search_btn">Поиск</a></li>
+                    <script src="./scripts/search.js"></script>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <section class="about element-animation">
+        <div class="container">
+            <div class="about__logo">
+                <img src="image/symbols/aboutImg1.png" alt="aboutImg" class="about__symbol">
+                <span class="text__symbol">Об WhiteTickets</span>
+                <img src="image/symbols/aboutImg2.png" alt="aboutImg" class="about__symbol">
+            </div>
+
+            <div class="about__inner">
+
+                <div class="about__column">
+                    <h3 class="about__title">
+                        <span>Цель</span>
+                    </h3>
+                    <p class="about__text">
+                        «WhiteTickets» - новая, светлая и энергичная компания,
+                        предоставляющая поиск и продажу билетов на любые концерты по Санкт-Петербургу. Главная
+                        цель компании – стать крупнейшей промоутерской компанией России и лучшим билетным
+                        оператором федерального масштаба.
+                    </p>
+                    <img src="image/fon/about1.png" alt="" class="about__img">
+                </div>
+
+                <div class="about__column">
+
+                    <h3 class="about__title">
+                        <span class="about__title-adapt">Преимущества</span>
+                    </h3>
+
+                    <div class="about__title-adapt">
+                        <p class="about__text">
+                            «WhiteTickets» предоставляет лояльную программу покупки билетов при помощи баллов и
+                            акций.
+                            Быстрая покупка и оптимальные цены - вот залог успеха нашей компании!
+                        </p>
+                    </div>
+
+                    <img src="image/fon/about2.png" alt="" class="about__img">
+
+                    <h3 class="about__title">
+                        <span class="about__title_Adapt2">Преимущества</span>
+                    </h3>
+
+                    <div class="about__title_Adapt2">
+                        <p class="about__text">
+                            «WhiteTickets» предоставляет лояльную программу покупки билетов при помощи баллов и
+                            акций.
+                            Быстрая покупка и оптимальные цены - вот залог успеха нашей компании!
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="action" class="action element-animation">
+        <div class="container">
+
+            <div class="action__logo">
+                <img src="image/symbols/actionImg.png" alt="actionImg" class="action__symbol">
+                <span class="text__symbol">Акции</span>
+                <img src="image/symbols/actionImg.png" alt="actionImg" class="action__symbol">
+            </div>
+
+            <div class="action__img">
+                <div class="action__block">
+                    <a href="#popup1"><img src="./image/fon/crid.png" alt="" class="action__block1"></a>
+                    <p class="action__title">CRID</p>
+                    <p class="action__text">Скидка на концерты</p>
+                </div>
+
+                <div class="action__block">
+                    <a href="#popup2"><img src="./image/fon/st.png" alt="" class="action__block2"></a>
+                    <p class="action__title">STUD</p>
+                    <p class="action__text">Скидка на концерты</p>
+                </div>
+
+                <div class="action__block">
+                    <a href="#popup3"><img src="./image/fon/lazar.png" alt="" class="action__block3"></a>
+                    <p class="action__title">LAZAR</p>
+                    <p class="action__text">Скидка на концерты</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <div id="popup1" class="popup">
+        <a href="#action" class="popup__area1"></a>
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#action" class="popup__close-EK">X</a>
+                <img src="image/symbols/EK.png" alt="Ek" class="popup__img">
+                <div class="popup__title-EK">Егор Крид</div>
+                <div class="popup__text">Посетите концерты Егора Крида со скидкой в 30%!</div>
+                <a href="#action" class="button__popup-EK">
+                    <span class="button__popup-text">Поехали!</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup2" class="popup">
+        <a href="#action" class="popup__area2"></a>
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#action" class="popup__close-ST">X</a>
+                <img src="image/symbols/ST.png" alt="ST" class="popup__img">
+                <div class="popup__title-ST">Студенты</div>
+                <div class="popup__text">Вам полагается скидка в 45%!</div>
+                <a href="#action" class="button__popup-ST">
+                    <span class="button__popup-text">Поехали!</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup3" class="popup">
+        <a href="#action" class="popup__area3"></a>
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#action" class="popup__close-LZ">X</a>
+                <img src="image/symbols/LZ.png" alt="LZ" class="popup__img">
+                <div class="popup__title-LZ">Сергей Лазарев</div>
+                <div class="popup__text">Посетите концерты Сергея Лазарева со скидкой в 15%!</div>
+                <a href="#action" class="button__popup-LZ">
+                    <span class="button__popup-text">Поехали!</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="point" class="point element-animation">
+        <div class="container">
+
+            <div class="point__logo">
+                <img src="image/symbols/pointImg.png" alt="pointImg" class="point__symbol">
+                <span class="text__symbol">Баллы</span>
+                <img src="image/symbols/pointImg.png" alt="pointImg" class="point__symbol">
+            </div>
+
+            <ol class="point__content">
+                <li style="--cardColor:#fc374e">
+                    <div class="content">
+                        <div class="icon">😀</div>
+                        <div class="title">Получение баллов</div>
+                        <div class="text">Покупая билеты на концерты вы получаете баллы!</div>
+                    </div>
+                </li>
+                <li style="--cardColor:#36aeb3">
+                    <div class="content">
+                        <div class="icon">😁</div>
+                        <div class="title">Как использовать?</div>
+                        <div class="text">При оформления билета вы можете потратить свои баллы.</div>
+                    </div>
+                </li>
+                <li style="--cardColor:#162d59">
+                    <div class="content">
+                        <div class="icon">😉</div>
+                        <div class="title">Оценка</div>
+                        <div class="text">1 рубль — 1 балл. Все просто!</div>
+                    </div>
+                </li>
+                <li style="--cardColor:#f15f0e">
+                    <div class="content">
+                        <div class="icon">😜</div>
+                        <div class="title">Успей первым!</div>
+                        <div class="text">Чем меньше людей в зале, тем больше бонус!</div>
+                    </div>
+                </li>
+            </ol>
+
+        </div>
+    </section>
+
+
+    <section class="mailing element-animation">
+        <div class="container">
+            <div class="mailing__content">
+
+                <div class="mailing__title">
+                    Присоединяйтесь к выгодным рассылкам и акциям!
+                </div>
+
+                <ul>
+                    <li>
+                        <img src="./image/symbols/mailing.png" alt="mailingImg">
+                        <span>
+                            Лучшие новинки и акции на ваш email
+                        </span>
+                    </li>
+                    <li>
+                        <img src="./image/symbols/mailing.png" alt="mailingImg">
+                        <span>
+                            Советы и обзоры на концерты
+                        </span>
+                    </li>
+                    <li>
+                        <img src="./image/symbols/mailing.png" alt="mailingImg">
+                        <span>
+                            Ваши любимые артисты!
+                        </span>
+                    </li>
+                    <li>
+                        <img src="./image/symbols/mailing.png" alt="mailingImg">
+                        <span>
+                            Специальные бонусы
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mailing_adapt">Присоединяйтесь к выгодным рассылкам и акциям!</div>
+            <form id="mailing" class="input">
+                <div class="input__text">
+                    <input type="text" placeholder="Имя" class="input__Name" size="25">
+                    <input type="text" placeholder="Email" class="input__Email" size="25">
+                </div>
+            </form>
+            <button class="button__Go" form="mailing">
+                <span>Я с вами!</span>
+            </button>
+        </div>
+    </section>
+
+
+    <footer>
+        <hr>
+
+        <div class="footer__logo">WhiteTickets</div>
+        <ul class="footer__list">
+            <li><a href="#action" class="menu__list-nav">Акции</a></li>
+            <li><a href="#point" class="menu__list-nav">Баллы</a></li>
+            <li><a href="./login.html" class="menu__list-nav">Кабинет</a></li>
+            <li><a href="./index.html" class="menu__list-nav">Поиск</a></li>
+        </ul>
+
+        <div class="footer__network">
+            <a href="#"><img src="./image/symbols/Tel1.png" alt="Tel" class="footer__symbol-tel"></a>
+            <a href="#"><img src="./image/symbols/YouTube1.png" alt="YouTube" class="footer__symbol-YouTube"></a>
+            <a href="#"><img src="./image/symbols/Vk1.png" alt="Vk" class="footer__symbol-Vk"></a>
+        </div>
+
+        <div class="footer__telephone">8 (800) 289-20-10</div>
+
+        <div class="footer__text-block">
+            <a class="footer__text" href="http://xxxxxx-m1.wsr.ru/return">Возврат</a>
+            <a class="footer__text" href="http://xxxxxx-m1.wsr.ru/feedback">Обратная связь</a>
+        </div>
+    </footer>
+
+    <script src="./scripts/animation.js"></script>
+    <script src="./scripts/burger.js"></script>
+    <script src="./scripts/popup.js"></script>
+
+</body>
+
+</html>

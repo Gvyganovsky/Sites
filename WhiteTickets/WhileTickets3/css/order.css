@@ -1,0 +1,322 @@
+.order{
+    margin: 0 auto;
+    background: linear-gradient(to top, #190B40, #472C7B);
+    max-width: 550px;
+    max-height: 1800px;
+    border-radius: 50px;
+}
+
+.order__title{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Alegreya SC', serif;
+    color: #fff;
+    padding-top: 10px;  
+}
+
+.order__img{
+    max-width: 350px;
+    max-height: 400px;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.order__city{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+}
+
+.order__info-concert{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+}
+
+.order__title-content{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.order__btn{
+    border: 0px;
+    margin: 20px 0px 60px 0px;
+}
+
+.order__inner{
+    display: flex;
+    margin: 0 auto;
+    gap: 60px;
+    justify-content: center;
+}
+
+.order__point{display: flex;}
+
+.order__point-img{
+    max-width: 40px;
+    max-height: 40px;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.order__inner-two{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.order__title-content{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-family: 'Alegreya SC', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 66px;
+    color: #fff;
+}
+
+.order__text{
+    font-family: 'Nunito', sans-serif;
+    text-align: justify;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+
+.concert__place{
+    max-width: 300px;
+    padding: 0px 20px 0px 20px;
+    margin: 10px auto 20px;
+    display: block;
+}
+
+.choosing{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.choosing span{
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+.choosing__input{
+    width: 50px;
+    border-radius: 20px;
+    margin: 0px 10px;
+}
+
+.order__price {
+    padding-bottom: 15px;
+}
+
+.order__count-action {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0px 0px 20px;
+    padding: 0;
+}
+
+.customer__data-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.guest{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    font-family: 'Alegreya SC', serif;
+    color: white;
+}
+
+.form__wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.customer__data{
+    background: linear-gradient(to top, #190B40, #472C7B);
+    color: #fff;
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.customer__data input{
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.error__text {
+    color: rgb(201, 27, 27);
+    font-family: 'Alegreya SC', serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 25px 0px 25px;
+    margin-top: 50px;
+}
+
+.order__input{
+    font-family: 'Alegreya SC', serif;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #8D5AA5;
+    outline: none;
+    color: #fff;
+    font-size: 21px;
+}
+
+.order__symbol .material-symbols-outlined {font-size: 50px;}
+
+.button__block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button__symbol{
+    max-width: 60px;
+    padding-bottom: 10px;
+}
+
+
+.input__form {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px 0px 10px 0px;;
+    justify-content: center;
+}
+
+.form {
+    background: linear-gradient(to top, #190B40, #472C7B);
+    margin-top: 10px;
+    border-radius: 40px;
+    padding: 20px;
+    margin: 5px;
+}
+
+.ASDDD {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Alegreya SC', serif;
+    font-size: 35px;
+    color: #472C7B;
+}
+
+.personal__wrapper {
+    display: block;
+    text-align: center;
+    font-family: 'Alegreya SC', serif;
+}
+
+.personal__wrapper p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.order__block-all{
+    padding: 20px;
+    min-height: 412px;
+    margin-bottom: 10px;
+    border-radius: 100px;
+}
+
+.concert__img {
+    max-width: 350px;
+    max-height: 400px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    transition: all 1s ease-out;
+}
+
+.concert__img:hover {transform: scale(1.05);}
+
+.material-symbols-outlined{color: white;}
+
+.final__cost{
+    font-family: 'Alegreya SC', serif;
+    font-size: 20px;
+    color: #190B40;
+    margin: 20px 0px 10px 0px;
+    text-align: center;
+}
+
+.order__btn-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button__order{
+    padding: 5px;
+    font-family: 'Alegreya SC', serif;
+    margin: 20px 20px 0px 20px;
+    border-radius: 50px;
+    background: linear-gradient(to top, #190B40, #472C7B);
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    max-width: 110px;
+}
+
+.order__point-percent{
+    text-align: cente;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 850px){
+    .order__count{
+        margin: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .order__point{justify-content: center;}
+
+    .order__point .order__count{font-size: 15px;}
+
+    .order__inner{
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+
+    .order__title-content{text-align: center;}
+
+    .choosing__input{max-height: 30px;}
+
+}
+
+@media (max-width: 350px){
+    .ASDDD {font-size: 30px;}
+
+    .order__city{font-size: 35px;}
+
+    .order__count-action{font-size: 15px;}
+
+    .order__title-content{font-size: 25px;}
+
+    .concert__place{padding: 0;}
+}

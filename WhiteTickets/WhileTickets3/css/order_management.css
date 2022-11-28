@@ -1,0 +1,201 @@
+.order_management {
+    background: linear-gradient(45deg, #230038, #9501ed);
+    padding: 50px;
+}
+
+.order_management-content{
+    background-color: white;
+    max-width: 800px;
+    max-height: 1800px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+.order_management__title {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Alegreya SC', serif;
+    color: #5F0A87;
+    margin-bottom: 10px;
+}
+
+hr{margin-top: 5px;}
+
+.choosing{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.choosing span{
+    font-size: 20px;
+    padding-top: 5px;
+    margin: 0px 0px 20px 20px;
+}
+
+button a {
+    color: white;
+}
+
+.order_management__inner {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.order_management__column{max-width: 350px;}
+
+.order_management__title-content {
+    font-family: 'Alegreya SC', serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.order_management__text {
+    font-family: 'Nunito', sans-serif;
+    text-align: justify;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #5F0A87;
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+
+.concert__place {
+    max-width: 300px;
+    margin: 10px auto 20px;
+    display: block;
+}
+
+.choosing__input{
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+    margin: 0px 10px 0px 10px;
+}
+
+.material-symbols-outlined {
+    color: #5F0A87;
+    font-size: 25px;
+    word-spacing: -25px;
+    margin-top: 15px;
+}
+
+.star {display: flex;}
+
+.star span {color: #774FC4;}
+ 
+.star p {padding-top: 5px;}
+
+.order_management__point {display: flex;}
+
+.order_management__point-img {
+    max-width: 40px;
+    max-height: 40px;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.order_management__point p{margin-top: 15px;}
+
+.profile__photo-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 400px;
+    margin-bottom: 20px;
+}
+
+.om__text,
+.profile__text{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+.om__text p,
+.profile__text p{
+    margin: 15px 0px 5px 0px;
+}
+
+.concert__place{
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
+
+.search__btn-block{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search__btn {
+    margin: 0 auto;
+    border-radius: 30px;
+    font-size: 30px;
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    background: #774FC4;
+    transition: 300ms;
+    color: whitesmoke;
+    font-family: 'Alegreya SC', serif;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order_management__column-two{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+@media (max-width: 1090px){
+    .order_management__inner{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .concert__place{padding: 0px;}
+
+    .order_management__point{justify-content: center;}
+}
+
+@media (max-width: 470px){
+    .order_management__title{
+        padding: 10px;
+        font-size: 25px;
+    }
+
+    .profile__photo-img{
+        max-width: 180px;
+        max-height: 180px;
+        padding: 0;
+    }
+
+    .search__btn{
+        width: 180px;
+        font-size: 20px;
+    }
+
+    .concert__place{width: 200px;}
+
+    .order_management__title-content{font-size: 25px;}
+
+    .profile__text{font-size: 15px;}
+}

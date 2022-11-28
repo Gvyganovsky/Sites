@@ -1,0 +1,169 @@
+.search__header {
+    background-image: url(../image/fon/header2.png);
+    min-height: calc(100vh - 95px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 200px 200px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 85px
+}
+
+li {list-style-type: none;}
+
+.lines {display: none;}
+
+.form__price {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.concert {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title{padding-top: 30px;}
+
+.concert__title {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 72px;
+    text-align: left;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.search__text{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #000;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.search__text-date{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    color: rgb(121, 121, 121);
+    margin: 10px 35px 0px 30px;
+    font-size: 15px;
+}
+
+.order__count{
+    color: rgb(121, 121, 121);
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding-bottom: 20px;
+}
+
+.order__point{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.order__point-img{
+    max-width: 30px;
+    max-height: 30px;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.block__concert{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.block__concert-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.start {
+    max-width: 350px;
+    height: 500px;
+}
+
+.price_sort {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttonConcert {
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border-width: 0;
+    background: linear-gradient(45deg, #675EA9 33%, #8D5AA5 66%);
+    cursor: pointer;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
+
+    color: white;
+    font-size: 20px;
+    font-family: 'Alegreya SC', serif;
+    align-items: center;
+}
+
+.search__text-add{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    color: rgb(121, 121, 121);
+    margin: 12px 0px 0px 30px;
+    font-size: 15px;
+}
+
+.search__text-add-end {
+    margin-bottom: 20px;
+} 
+
+.search__btn{border: 0px;}
+
+.search__btn:hover {
+    transform: translateY(5px);
+    box-shadow: 0px 0px transparent, 0px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.concert__img {
+    max-width: 350px;
+    max-height: 400px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    transition: all 1s ease-out;
+}
+
+.concert__img:hover {transform: scale(1.05);}
+
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: 
+        linear-gradient(white, white) padding-box,
+        linear-gradient(to top, #190B40, #472C7B) border-box;
+  border: 4px solid transparent;
+  float: right;
+  cursor: pointer;
+}
+
+.circle__active{background: linear-gradient(to top, #190B40, #472C7B) border-box;}
+
+@media (max-width: 400px) {
+    .concert__img {max-width: 280px;}
+}

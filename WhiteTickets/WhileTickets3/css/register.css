@@ -1,0 +1,166 @@
+header {background-color: white;}
+
+.register{
+    background: linear-gradient(45deg, #230038, #9501ed);
+    padding: 50px;
+}
+
+.register__content {
+    max-width: 500px;
+    max-height: 900px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register__block {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.register__title {
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #000000;
+    margin: 10px 0px 40px 0px;
+}
+
+.register__input{
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #8D5AA5;
+    outline: none;
+    font-family: 'Alegreya SC', serif;
+    font-size: 20px;
+}
+
+a:active{color: #4d4875;}
+
+span .registerText{width: 10px;}
+
+.registerText{
+    display: block;
+    text-align: center;
+    max-width: 400px;
+    color: #4d4875;
+    font-family: 'Alegreya SC', serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.register .material-symbols-outlined {font-size: 50px;}
+
+.input__register {
+    width: 300px;
+    height: 80px;
+    border-radius: 50px;
+    padding: 8px;
+    font-size: 17px;
+    color: #212529;
+    border-width: 0;
+    background: linear-gradient(45deg, #675EA9 33%, #8D5AA5 66%);
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.input__register:hover {background: linear-gradient(45deg, #6b659e 33%, #755086 66%);}
+
+.error__text {
+    color: rgb(201, 27, 27);
+    font-family: 'Alegreya SC', serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 0px 0px 50px 0px;
+    padding: 0px 25px 0px 25px;
+}
+
+.button__text{
+    border-radius: 30px;
+    font-size: 35px;
+    color: white;
+    font-family: 'Alegreya SC', serif;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img .logoName{margin-bottom: 20px;}
+
+footer{
+    max-width: 1920px;
+    background-color: white;
+    margin-top: 0px;
+}
+
+.register__name{width: 200px;}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+@media (max-width: 500px) {
+    .register__title{font-size: 30px;}
+
+    .logoName{max-width: 300px;}
+
+    .input__register {width: 230px;}
+
+    .button__text{font-size: 30px;}
+
+    .registerText{max-width: 250px;}
+}
+
+@media (max-width: 400px) {
+    .register__title{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .input__register{width: 200px;}
+}
+
+@media (max-width: 350px) {  
+    .register__symbol .material-symbols-outlined {
+        font-size: 30px;
+        padding-top: 15px;
+    }
+
+    .register__name{
+        font-size: 15px;
+        margin-left: 0;
+    }
+
+    .registerText{
+        max-width: 230px;
+        font-size: 18px;
+    }
+
+    .register__name{width: 150px;}
+
+    .input__register {
+        width: 180px;
+        height: 50px;
+    }
+
+    .button__text{font-size: 25px;} 
+}
